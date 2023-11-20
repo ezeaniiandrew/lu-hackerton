@@ -86,6 +86,7 @@ body {
 
 .account-panel {
   position: absolute;
+  display: none;
   right: 3%;
   top: 10%;
   width: 320px;
