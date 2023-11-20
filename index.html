@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stripe Onboarding Dashbosrd clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <span>
+          <img src="./assets/shopify-icon.svg" alt="" />
+        </span>
+        <span>
+          <img src="./assets/shopify-icon-text.svg" alt="" />
+        </span>
+      </div>
+      <div class="searchbar">
+        <label for="search"></label>
+        <input type="text" placeholder="Search..." id="search" />
+      </div>
+      <div class="user-info">
+        <div class="bell"></div>
+        <p>
+          <span>David Collections</span>
+          <span>dc</span>
+        </p>
+      </div>
+    </nav>
+
+    <div class="notification-panel">
+      <div class="header">
+        <p>Alerts</p>
+        <div>
+          <img src="./assets/FilterMajor.png" alt="" />
+          <img src="./assets/CircleTickMajor.png" alt="" />
+        </div>
+      </div>
+      <div class="notications">
+        <p>Alerts about your store and account will show here</p>
+      </div>
+    </div>
+
+    <div class="account-panel">
+      <p>David collections</p>
+      <p>All stores</p>
+      <hr />
+      <p>Help Center</p>
+      <p>Changelog</p>
+      <p class="active">Community forums</p>
+      <p>Hire a Shopify Partner</p>
+      <p>Keyboard shortcuts</p>
+      <hr />
+      <p>David Michael <span>davidmichael@gmail.com</span></p>
+      <p>Manage account</p>
+      <p>Log out</p>
+    </div>
+
+    <main>
+      <div class="plan">
+        <div>
+          <p>Extend your trial for $1/month for 3 months on select plans.</p>
+          <button>Select a plan</button>
+        </div>
+        <button>
+          <img src="./assets/Iconcancel.svg" alt="" />
+        </button>
+      </div>
+
+      <div class="wrapper">
+        <section class="onboard">
+          <div>
+            <div class="textbox">
+              <p class="heading">Setup guide</p>
+              <p class="sub-text">
+                Use this personalized guide to get your store up and running.
+              </p>
+            </div>
+            <div class="progress-box">
+              <p><span>1</span> / 5 completed</p>
+              <!-- change this to the appropriate input -->
+              <div class="progress-bar">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+          <button></button>
+        </section>
+
+        <section class="container">
+          <div class="tab" data-index="1">
+            <span>hou</span>
+            <div class="tab-content">
+              <p>Customize your online store</p>
+              <div class="main-content">
+                <div class="tab__textbox">
+                  <p>
+                    Choose a theme and add your logo, colors, and images to
+                    reflect your brand. <a href="#">Learn more</a>
+                  </p>
+                  <button class="btn black">Customize theme</button>
+                </div>
+                <img src="./assets/Illustration1.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="tab" data-index="2">
+            <span></span>
+            <div class="tab-content">
+              <p>Add your first product</p>
+              <div class="main-content hide">
+                <div class="tab__textbox">
+                  <p>
+                    Write a description, add photos, and set pricing for the
+                    products you plan to sell. <a href="#">Learn more</a>
+                  </p>
+                  <button class="btn black">Add product</button>
+                  <button class="btn text">Import product</button>
+                </div>
+                <img src="./assets/Illustration2.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="tab" data-index="3">
+            <span></span>
+            <div class="tab-content">
+              <p>Add a custom domain</p>
+              <div class="main-content hide">
+                <div class="tab__textbox">
+                  <p>
+                    Your current domain is 222219.myshopify.com but you can add
+                    a custom domain to help customers find your online store.
+                    <a href="#">Learn more</a>
+                  </p>
+                  <button class="btn black">Add domain</button>
+                </div>
+                <img src="./assets/Illustration3.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="tab" data-index="4">
+            <span></span>
+            <div class="tab-content">
+              <p>Name your store</p>
+              <div class="main-content hide">
+                <div class="tab__textbox">
+                  <p>
+                    Your temporary store name is currently Davii collections.
+                    The store name appears in your admin and your online store.
+                    <a href="#">Learn more</a>
+                  </p>
+                  <button class="btn black">Name store</button>
+                </div>
+                <img src="./assets/Illustration4.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="tab" data-index="5">
+            <span></span>
+
+            <div class="tab-content">
+              <p>Setup a payment provider</p>
+              <div class="main-content hide">
+                <div class="tab__textbox">
+                  <p>
+                    Choose a payment provider to start accepting payments.
+                    You’ll need to create an account with the payment provider
+                    and set it up with your Shopify store.
+                    <a href="#">Learn more</a>
+                  </p>
+                  <button class="btn black">Set up payment</button>
+                </div>
+                <img src="./assets/Illustration5.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
